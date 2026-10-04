@@ -1,0 +1,802 @@
+[
+  {
+    "id": "T001",
+    "query": "公园绿化用地比例要求",
+    "ground_truth": "应大于陆地面积的 65%",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T002",
+    "query": "广场绿化用地比例要求",
+    "ground_truth": "应大于 35%",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T003",
+    "query": "养护管理期最少多久",
+    "ground_truth": "不应少于 1 年",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T004",
+    "query": "消防车通行园路宽度",
+    "ground_truth": "应大于 4m",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T005",
+    "query": "儿童活动场地植物禁忌",
+    "ground_truth": "不应配置有毒、有刺植物",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T006",
+    "query": "病虫害防治禁用农药",
+    "ground_truth": "禁用剧毒、高毒农药",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T007",
+    "query": "综合公园面积要求",
+    "ground_truth": "新建大于 10hm²，改建大于 5hm²",
+    "difficulty": "中等",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T008",
+    "query": "社区公园面积要求",
+    "ground_truth": "应大于 1hm²",
+    "difficulty": "中等",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T009",
+    "query": "游园用地最小宽度",
+    "ground_truth": "应大于 12m",
+    "difficulty": "中等",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T010",
+    "query": "绿化用地比例基准面积",
+    "ground_truth": "以陆地面积为基数",
+    "difficulty": "中等",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T011",
+    "query": "公园厕所厕位设置比例",
+    "ground_truth": "小于 10hm² 按 1.5%，大于等于 10hm² 按 2%",
+    "difficulty": "中等",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T012",
+    "query": "地下空间顶面乔木覆土深度",
+    "ground_truth": "应大于 1.5m",
+    "difficulty": "困难",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T013",
+    "query": "近岸 2m 内水深防护要求",
+    "ground_truth": "水深大于等于 0.70m 需防护",
+    "difficulty": "困难",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T014",
+    "query": "乔木根颈到给水管道距离",
+    "ground_truth": "最小水平距离 1.5m",
+    "difficulty": "困难",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T015",
+    "query": "水池防护栏高度",
+    "ground_truth": "大于 1.05m，临空大于 24m 时大于 1.10m",
+    "difficulty": "困难",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T016",
+    "query": "景观用水水质标准",
+    "ground_truth": "娱乐性Ⅲ类，观赏性Ⅳ类",
+    "difficulty": "困难",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T017",
+    "query": "公园厕所设置面积标准",
+    "ground_truth": "2hm² 以上设厕所",
+    "difficulty": "中等",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T018",
+    "query": "应急避险设施要求",
+    "ground_truth": "应避让文物保护建筑和古树名木",
+    "difficulty": "困难",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T019",
+    "query": "古树名木保护范围",
+    "ground_truth": "树冠垂直投影外 5m",
+    "difficulty": "困难",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T020",
+    "query": "绿化隔离带植物选择",
+    "ground_truth": "抗污染、适应性强、低维护的乡土树种",
+    "difficulty": "中等",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T021",
+    "query": "主干道道路绿地率",
+    "ground_truth": "应大于 20%",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T022",
+    "query": "分车带乔木净宽",
+    "ground_truth": "应大于 1.5m",
+    "difficulty": "中等",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T023",
+    "query": "绿道自行车道宽度",
+    "ground_truth": "城镇型单向≥1.5m，双向≥3.0m",
+    "difficulty": "困难",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T024",
+    "query": "园林植物反季节种植",
+    "ground_truth": "不应反季节种植和过度密植",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "T025",
+    "query": "种植土有害物质要求",
+    "ground_truth": "不应影响植物正常生长",
+    "difficulty": "简单",
+    "category": "图纸规范",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z001",
+    "query": "适合重庆种植的中阳性树种",
+    "ground_truth": "罗汉松、紫薇、桃、黑松、榉、柏等",
+    "difficulty": "简单",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z002",
+    "query": "适合重庆种植的耐阴常绿灌木",
+    "ground_truth": "八角金盘、南天竹、杜鹃等",
+    "difficulty": "简单",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z003",
+    "query": "樟树在重庆能种吗",
+    "ground_truth": "能，香樟是重庆常见乡土树种",
+    "difficulty": "简单",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z004",
+    "query": "桂花在重庆表现如何",
+    "ground_truth": "常绿灌木/小乔木，喜温暖湿润，适宜重庆",
+    "difficulty": "简单",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z005",
+    "query": "乌桕的别名",
+    "ground_truth": "腊子树、桕子树",
+    "difficulty": "简单",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z006",
+    "query": "鸡爪槭的别名",
+    "ground_truth": "鸡爪枫",
+    "difficulty": "简单",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z007",
+    "query": "麦冬的别名",
+    "ground_truth": "沿阶草",
+    "difficulty": "简单",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z008",
+    "query": "八角金盘的生态习性",
+    "ground_truth": "阴性树种，喜温暖湿润，不耐干旱",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z009",
+    "query": "儿童活动区植物选择要求",
+    "ground_truth": "无毒无刺，不易过敏",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z010",
+    "query": "棕榈科植物在重庆过冬",
+    "ground_truth": "部分品种需防寒",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z011",
+    "query": "柚子树在重庆能种吗",
+    "ground_truth": "能，柚喜温暖湿润气候",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z012",
+    "query": "笋竹的生态习性",
+    "ground_truth": "阳性竹类，喜温暖湿润气候",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z013",
+    "query": "重庆夏季开花的灌木",
+    "ground_truth": "紫薇、栀子、绣线菊",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z014",
+    "query": "耐水湿的乔木品种",
+    "ground_truth": "乌桕、池杉、水杉、落羽杉",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z015",
+    "query": "抗污染强的行道树",
+    "ground_truth": "香樟、银杏、朴树、栾树",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z016",
+    "query": "重庆常用的地被植物",
+    "ground_truth": "麦冬、鸢尾、矾根、苔草",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z017",
+    "query": "适合阴面的常绿灌木",
+    "ground_truth": "八角金盘、南天竹、洒金桃叶珊瑚",
+    "difficulty": "困难",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z018",
+    "query": "耐盐碱的植物品种",
+    "ground_truth": "柽柳、沙棘、白蜡",
+    "difficulty": "困难",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z019",
+    "query": "重庆地区乡土树种",
+    "ground_truth": "香樟、黄葛树、小叶榕、重阳木",
+    "difficulty": "困难",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z020",
+    "query": "芳香植物在景观中的应用",
+    "ground_truth": "桂花、栀子、腊梅、茉莉",
+    "difficulty": "困难",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z021",
+    "query": "水生植物在驳岸的应用",
+    "ground_truth": "荷花、睡莲、再力花、黄菖蒲",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z022",
+    "query": "抗风性强的树种",
+    "ground_truth": "香樟、女贞、棕榈",
+    "difficulty": "困难",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z023",
+    "query": "速生树种推荐",
+    "ground_truth": "杨树、柳树、泡桐、桉树",
+    "difficulty": "中等",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z024",
+    "query": "秋色叶树种推荐",
+    "ground_truth": "银杏、乌桕、鸡爪槭、黄连木",
+    "difficulty": "简单",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "Z025",
+    "query": "常绿与落叶搭配比例",
+    "ground_truth": "一般 6:4 或 7:3",
+    "difficulty": "困难",
+    "category": "智能配植",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F001",
+    "query": "武汉理想之地的设计理念",
+    "ground_truth": "绿脉绽放的花园式社区，全周期品控兑现未来社区",
+    "difficulty": "简单",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F002",
+    "query": "西安金地云玺台的设计灵感",
+    "ground_truth": "源自昆仑山脉与西安台塬地势，以\"玉\"为设计意象",
+    "difficulty": "简单",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F003",
+    "query": "山水比德的质量管控体系",
+    "ground_truth": "全周期品控，定向评审与概念评审两大关键管控节点",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F004",
+    "query": "理想之地的概念生成方法",
+    "ground_truth": "从场地记忆、使用场景、人文脉络出发",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F005",
+    "query": "方案设计中的\"场地文脉\"",
+    "ground_truth": "挖掘场地的历史文化与自然环境特征",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F006",
+    "query": "景观设计中的\"生态优先\"原则",
+    "ground_truth": "以乡土植物为主，构建稳定的植物群落",
+    "difficulty": "简单",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F007",
+    "query": "景观层次结构设计",
+    "ground_truth": "乔木-灌木-地被三层结构",
+    "difficulty": "简单",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F008",
+    "query": "景观方案中的\"以人为本\"",
+    "ground_truth": "满足使用者需求，注重人性化设计",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F009",
+    "query": "社区景观的\"共享空间\"",
+    "ground_truth": "满足居民社交、休憩、活动需求",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F010",
+    "query": "景观项目中的\"文化传承\"",
+    "ground_truth": "挖掘地域文化，融入设计语言",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F011",
+    "query": "方案设计中的\"经济适用\"",
+    "ground_truth": "因地制宜，控制成本，合理选用材料",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F012",
+    "query": "云玺台项目的地域特征",
+    "ground_truth": "西安台塬地势，昆仑山脉文脉",
+    "difficulty": "困难",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F013",
+    "query": "理想之地项目的定位",
+    "ground_truth": "未来社区，全周期品控",
+    "difficulty": "困难",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F014",
+    "query": "景观设计中的\"海绵城市\"理念",
+    "ground_truth": "雨水就地消纳，透水铺装，下沉绿地",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F015",
+    "query": "设计方案的\"统筹兼顾\"",
+    "ground_truth": "协同建筑、结构、给排水、电气等专业",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F016",
+    "query": "概念方案阶段的评审要点",
+    "ground_truth": "定向评审与概念评审",
+    "difficulty": "困难",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F017",
+    "query": "景观方案中的\"竖向设计\"",
+    "ground_truth": "结合地形，组织排水，控制高程",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F018",
+    "query": "社区景观的\"适老化\"设计",
+    "ground_truth": "无障碍通道，休憩座椅，平缓坡道",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F019",
+    "query": "儿童活动区设计要点",
+    "ground_truth": "安全、趣味、探索性，兼顾家长看护",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F020",
+    "query": "景观方案中的\"视线分析\"",
+    "ground_truth": "对景、框景、借景，营造空间层次",
+    "difficulty": "困难",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F021",
+    "query": "商业景观的设计特点",
+    "ground_truth": "吸引人流，突出品牌，注重夜间照明",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F022",
+    "query": "公园景观的设计原则",
+    "ground_truth": "尊重自然，以人为本，因地制宜",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F023",
+    "query": "景观方案中的\"留白\"手法",
+    "ground_truth": "适当留出空地，营造呼吸感",
+    "difficulty": "困难",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F024",
+    "query": "方案设计的\"文化符号\"运用",
+    "ground_truth": "提取地域文化元素，抽象化融入设计",
+    "difficulty": "困难",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "F025",
+    "query": "景观项目的\"可持续\"理念",
+    "ground_truth": "低维护植物，雨水利用，生态材料",
+    "difficulty": "中等",
+    "category": "方案文本",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X001",
+    "query": "现代极简风格效果图特征",
+    "ground_truth": "线条简洁，色彩克制，材质对比强烈",
+    "difficulty": "简单",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X002",
+    "query": "新中式风格效果图特征",
+    "ground_truth": "传统元素，留白意境，木质材料",
+    "difficulty": "简单",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X003",
+    "query": "日式枯山水效果图特征",
+    "ground_truth": "沙石、苔藓、置石，极简禅意",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X004",
+    "query": "现代居住区入口效果图要点",
+    "ground_truth": "引导性，标识性，层次丰富",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X005",
+    "query": "儿童活动区效果图要点",
+    "ground_truth": "色彩明亮，设施安全，童趣设计",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X006",
+    "query": "水景效果图渲染要点",
+    "ground_truth": "水面反射，光影变化，倒影处理",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X007",
+    "query": "夜景效果图照明设计",
+    "ground_truth": "重点照明，层次分明，暖光为主",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X008",
+    "query": "商业街效果图氛围营造",
+    "ground_truth": "热闹氛围，多层次照明，人流引导",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X009",
+    "query": "植物配置在效果图中的表现",
+    "ground_truth": "层次分明，色彩丰富，疏密有致",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X010",
+    "query": "硬景材质在效果图中的表现",
+    "ground_truth": "材质质感，光泽度，接缝处理",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X011",
+    "query": "天空在效果图中的作用",
+    "ground_truth": "烘托氛围，提供环境光",
+    "difficulty": "简单",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X012",
+    "query": "人物在效果图中的比例",
+    "ground_truth": "约 1.7m 高，用于衬托尺度",
+    "difficulty": "简单",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X013",
+    "query": "效果图构图基本原则",
+    "ground_truth": "三分法，引导线，前景中景远景",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X014",
+    "query": "景观轴测图与透视图区别",
+    "ground_truth": "轴测平行投影，透视有灭点",
+    "difficulty": "困难",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X015",
+    "query": "鸟瞰图渲染要点",
+    "ground_truth": "层次丰富，全局把控，重点突出",
+    "difficulty": "困难",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X016",
+    "query": "效果图中的\"大气透视\"",
+    "ground_truth": "远景降低饱和度，营造空间感",
+    "difficulty": "困难",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X017",
+    "query": "效果图材质渲染的\"PBR\"原则",
+    "ground_truth": "基于物理的渲染，真实材质参数",
+    "difficulty": "困难",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X018",
+    "query": "阳光角度对效果图的影响",
+    "ground_truth": "45 度角最能表现立体感",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X019",
+    "query": "效果图后期调色原则",
+    "ground_truth": "统一色调，对比适度，避免过饱和",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X020",
+    "query": "景观效果图的\"氛围感\"营造",
+    "ground_truth": "光影、雾气、人群、细节",
+    "difficulty": "困难",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X021",
+    "query": "植物在效果图中的软硬边处理",
+    "ground_truth": "枝叶软边，树干硬边，层次感",
+    "difficulty": "困难",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X022",
+    "query": "效果图中的\"视觉焦点\"",
+    "ground_truth": "主景突出，次要元素衬托",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X023",
+    "query": "铺装纹理在效果图中的表现",
+    "ground_truth": "材质真实，接缝清晰，透视正确",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X024",
+    "query": "效果图渲染引擎的选择",
+    "ground_truth": "Lumion/Enscape/Twinmotion/Veras 各有侧重",
+    "difficulty": "困难",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  },
+  {
+    "id": "X025",
+    "query": "AI 生成效果图的提示词结构",
+    "ground_truth": "主体+风格+光影+材质+氛围+细节",
+    "difficulty": "中等",
+    "category": "效果图咨询",
+    "correct_chunk_ids": []
+  }
+]

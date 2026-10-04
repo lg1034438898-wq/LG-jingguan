@@ -1,0 +1,927 @@
+{
+  "total": 100,
+  "vector_recall_at_5": 1.0,
+  "hybrid_recall_at_5": 0.91,
+  "vector_mrr": 1.0,
+  "hybrid_mrr": 0.6578333333333336,
+  "by_category": {
+    "图纸规范": {
+      "total": 25,
+      "hybrid_recall": 0.92
+    },
+    "智能配植": {
+      "total": 25,
+      "hybrid_recall": 0.96
+    },
+    "方案文本": {
+      "total": 25,
+      "hybrid_recall": 0.84
+    },
+    "效果图咨询": {
+      "total": 25,
+      "hybrid_recall": 0.92
+    }
+  },
+  "details": [
+    {
+      "id": "T001",
+      "query": "公园绿化用地比例要求",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p19_c80",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "T002",
+      "query": "广场绿化用地比例要求",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p19_c80",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "T003",
+      "query": "养护管理期最少多久",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p48_c109",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T004",
+      "query": "消防车通行园路宽度",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p52_c113",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T005",
+      "query": "儿童活动场地植物禁忌",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p54_c115",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "T006",
+      "query": "病虫害防治禁用农药",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p54_c115",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T007",
+      "query": "综合公园面积要求",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p18_c79",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "T008",
+      "query": "社区公园面积要求",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p19_c80",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "T009",
+      "query": "游园用地最小宽度",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p19_c80",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T010",
+      "query": "绿化用地比例基准面积",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p42_c103",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "T011",
+      "query": "公园厕所厕位设置比例",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p47_c108",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T012",
+      "query": "地下空间顶面乔木覆土深度",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p54_c115",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T013",
+      "query": "近岸 2m 内水深防护要求",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p17_c78",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "T014",
+      "query": "乔木根颈到给水管道距离",
+      "category": "图纸规范",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img36.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "T015",
+      "query": "水池防护栏高度",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p56_c117",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "T016",
+      "query": "景观用水水质标准",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p17_c78",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T017",
+      "query": "公园厕所设置面积标准",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p47_c108",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "T018",
+      "query": "应急避险设施要求",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p45_c106",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T019",
+      "query": "古树名木保护范围",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p47_c108",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T020",
+      "query": "绿化隔离带植物选择",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p27_c88",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T021",
+      "query": "主干道道路绿地率",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p62_c123",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T022",
+      "query": "分车带乔木净宽",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p62_c123",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T023",
+      "query": "绿道自行车道宽度",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p26_c87",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T024",
+      "query": "园林植物反季节种植",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p53_c114",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "T025",
+      "query": "种植土有害物质要求",
+      "category": "图纸规范",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p53_c114",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "Z001",
+      "query": "适合重庆种植的中阳性树种",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c387_part1",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "Z002",
+      "query": "适合重庆种植的耐阴常绿灌木",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c399_part13",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "Z003",
+      "query": "樟树在重庆能种吗",
+      "category": "智能配植",
+      "vector_top1": "text_200多种植物习性汇总_p1_c3",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z004",
+      "query": "桂花在重庆表现如何",
+      "category": "智能配植",
+      "vector_top1": "table_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p40_c414",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z005",
+      "query": "乌桕的别名",
+      "category": "智能配植",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p39_c44",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z006",
+      "query": "鸡爪槭的别名",
+      "category": "智能配植",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p54_c59",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "Z007",
+      "query": "麦冬的别名",
+      "category": "智能配植",
+      "vector_top1": "img_比德质行 _ 全周期品控兑现未来社区：武汉理想之地_p1_page1_img45.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z008",
+      "query": "八角金盘的生态习性",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c393_part7",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z009",
+      "query": "儿童活动区植物选择要求",
+      "category": "智能配植",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p54_c115",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z010",
+      "query": "棕榈科植物在重庆过冬",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c387_part1",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "Z011",
+      "query": "柚子树在重庆能种吗",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c399_part13",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "Z012",
+      "query": "笋竹的生态习性",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c396_part10",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "Z013",
+      "query": "重庆夏季开花的灌木",
+      "category": "智能配植",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p40_c45",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "Z014",
+      "query": "耐水湿的乔木品种",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c390_part4",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "Z015",
+      "query": "抗污染强的行道树",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c399_part13",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 5
+    },
+    {
+      "id": "Z016",
+      "query": "重庆常用的地被植物",
+      "category": "智能配植",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p8_page8_img0.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z017",
+      "query": "适合阴面的常绿灌木",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c398_part12",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z018",
+      "query": "耐盐碱的植物品种",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c397_part11",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z019",
+      "query": "重庆地区乡土树种",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c387_part1",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "Z020",
+      "query": "芳香植物在景观中的应用",
+      "category": "智能配植",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p32_page32_img2.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "Z021",
+      "query": "水生植物在驳岸的应用",
+      "category": "智能配植",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p18_page18_img1.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z022",
+      "query": "抗风性强的树种",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c387_part1",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "Z023",
+      "query": "速生树种推荐",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c390_part4",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 5
+    },
+    {
+      "id": "Z024",
+      "query": "秋色叶树种推荐",
+      "category": "智能配植",
+      "vector_top1": "table_200多种植物习性汇总_p1_c393_part7",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "Z025",
+      "query": "常绿与落叶搭配比例",
+      "category": "智能配植",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p21_page21_img0.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F001",
+      "query": "武汉理想之地的设计理念",
+      "category": "方案文本",
+      "vector_top1": "text_比德质行 _ 全周期品控兑现未来社区：武汉理想之地_p1_c131",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F002",
+      "query": "西安金地云玺台的设计灵感",
+      "category": "方案文本",
+      "vector_top1": "text_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_c130",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F003",
+      "query": "山水比德的质量管控体系",
+      "category": "方案文本",
+      "vector_top1": "table_比德质行 _ 全周期品控兑现未来社区：武汉理想之地_p1_c436",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "F004",
+      "query": "理想之地的概念生成方法",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p8_c11",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 5
+    },
+    {
+      "id": "F005",
+      "query": "方案设计中的\"场地文脉\"",
+      "category": "方案文本",
+      "vector_top1": "table_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c426_part2",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "F006",
+      "query": "景观设计中的\"生态优先\"原则",
+      "category": "方案文本",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p9_c70",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F007",
+      "query": "景观层次结构设计",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c58",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F008",
+      "query": "景观方案中的\"以人为本\"",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c58",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F009",
+      "query": "社区景观的\"共享空间\"",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p8_c13",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F010",
+      "query": "景观项目中的\"文化传承\"",
+      "category": "方案文本",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p44_c105",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "F011",
+      "query": "方案设计中的\"经济适用\"",
+      "category": "方案文本",
+      "vector_top1": "table_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c426_part2",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "F012",
+      "query": "云玺台项目的地域特征",
+      "category": "方案文本",
+      "vector_top1": "text_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_c130",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F013",
+      "query": "理想之地项目的定位",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p8_c11",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "F014",
+      "query": "景观设计中的\"海绵城市\"理念",
+      "category": "方案文本",
+      "vector_top1": "table_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c425_part1",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "F015",
+      "query": "设计方案的\"统筹兼顾\"",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p37_c42",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "F016",
+      "query": "概念方案阶段的评审要点",
+      "category": "方案文本",
+      "vector_top1": "img_比德质行 _ 全周期品控兑现未来社区：武汉理想之地_p1_page1_img15.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F017",
+      "query": "景观方案中的\"竖向设计\"",
+      "category": "方案文本",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p20_page20_img1.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 5
+    },
+    {
+      "id": "F018",
+      "query": "社区景观的\"适老化\"设计",
+      "category": "方案文本",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p57_c118",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "F019",
+      "query": "儿童活动区设计要点",
+      "category": "方案文本",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p21_c82",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "F020",
+      "query": "景观方案中的\"视线分析\"",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c58",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F021",
+      "query": "商业景观的设计特点",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c58",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "F022",
+      "query": "公园景观的设计原则",
+      "category": "方案文本",
+      "vector_top1": "text_GB55014-2021《园林绿化工程项目规范》_p11_c72",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "F023",
+      "query": "景观方案中的\"留白\"手法",
+      "category": "方案文本",
+      "vector_top1": "table_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c426_part2",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "F024",
+      "query": "方案设计的\"文化符号\"运用",
+      "category": "方案文本",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p51_c56",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "F025",
+      "query": "景观项目的\"可持续\"理念",
+      "category": "方案文本",
+      "vector_top1": "table_比德质行 _ 全周期品控兑现未来社区：武汉理想之地_p1_c433",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 5
+    },
+    {
+      "id": "X001",
+      "query": "现代极简风格效果图特征",
+      "category": "效果图咨询",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p12_page12_img0.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 3
+    },
+    {
+      "id": "X002",
+      "query": "新中式风格效果图特征",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "X003",
+      "query": "日式枯山水效果图特征",
+      "category": "效果图咨询",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p12_page12_img0.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X004",
+      "query": "现代居住区入口效果图要点",
+      "category": "效果图咨询",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p4_c7",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "X005",
+      "query": "儿童活动区效果图要点",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X006",
+      "query": "水景效果图渲染要点",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "X007",
+      "query": "夜景效果图照明设计",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X008",
+      "query": "商业街效果图氛围营造",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X009",
+      "query": "植物配置在效果图中的表现",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 2
+    },
+    {
+      "id": "X010",
+      "query": "硬景材质在效果图中的表现",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img35.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "X011",
+      "query": "天空在效果图中的作用",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X012",
+      "query": "人物在效果图中的比例",
+      "category": "效果图咨询",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p12_page12_img0.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "X013",
+      "query": "效果图构图基本原则",
+      "category": "效果图咨询",
+      "vector_top1": "img_比德质行 _ 全周期品控兑现未来社区：武汉理想之地_p1_page1_img24.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X014",
+      "query": "景观轴测图与透视图区别",
+      "category": "效果图咨询",
+      "vector_top1": "table_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c425_part1",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X015",
+      "query": "鸟瞰图渲染要点",
+      "category": "效果图咨询",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p53_c58",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X016",
+      "query": "效果图中的\"大气透视\"",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X017",
+      "query": "效果图材质渲染的\"PBR\"原则",
+      "category": "效果图咨询",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p12_page12_img0.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X018",
+      "query": "阳光角度对效果图的影响",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X019",
+      "query": "效果图后期调色原则",
+      "category": "效果图咨询",
+      "vector_top1": "img_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p12_page12_img0.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X020",
+      "query": "景观效果图的\"氛围感\"营造",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": false,
+      "hybrid_rank": null
+    },
+    {
+      "id": "X021",
+      "query": "植物在效果图中的软硬边处理",
+      "category": "效果图咨询",
+      "vector_top1": "img_比德质行 _ 全周期品控兑现未来社区：武汉理想之地_p1_page1_img24.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X022",
+      "query": "效果图中的\"视觉焦点\"",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X023",
+      "query": "铺装纹理在效果图中的表现",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 4
+    },
+    {
+      "id": "X024",
+      "query": "效果图渲染引擎的选择",
+      "category": "效果图咨询",
+      "vector_top1": "img_在那台塬之上，藏一块玉｜西安金地·云玺台_p1_page1_img10.png",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 1
+    },
+    {
+      "id": "X025",
+      "query": "AI 生成效果图的提示词结构",
+      "category": "效果图咨询",
+      "vector_top1": "text_202609 绍兴市上虞区城北3号地块项目景观方案 终稿会_p11_c16",
+      "vector_hit": true,
+      "hybrid_hit": true,
+      "hybrid_rank": 5
+    }
+  ]
+}
